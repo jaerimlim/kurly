@@ -1,0 +1,9 @@
+{ "product":
+[
+  {"keyword":"10%쿠폰+증정", "img":"product01.jpg","title":"[에스티 로더]갈색병 75ml 기획세트(+갈색병 총 75.5ml 증정)", "price":"231000", "sale":"15", "saleprice":"196350"},
+  {"keyword":"증정이벤트", "img":"product02.jpg","title":"[달바] 화이트 트러플 퍼스트 스프레이 세럼 100ml 2개 세트 (옐로우 미스트 세럼)", "price":"58000", "sale":"43", "saleprice":"33900"},
+  {"img":"product03.jpg","title":"[모로칸오일] 헤어 트리트먼트 100ml(펌핑기 포함)", "price":"58000", "sale":"15", "saleprice":"49300"},
+  {"img":"product04.jpg","title":"[헤드스파7] 비오틴 모든강화 샴트리 샴푸 740g", "price":"35000", "sale":"60", "saleprice":"13900"}
+
+]
+}

@@ -1,0 +1,220 @@
+a{
+  color:#333;
+  text-decoration: none;
+  
+}
+.slide img{
+  width: 100%;
+}
+
+.best{
+  width: 1200px;
+  margin: 0 auto;
+}
+.best h2{
+  font-size: 28px;
+  margin: 50px 0px 20px 0px;
+}
+.best > p{
+  color: rgb(181, 181, 181);
+  margin-bottom: 20px;
+}
+.best h2, .best > p {
+  text-align: center;
+}
+.bestitem{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.bestitem li{
+  width: 100%;
+  margin: 0px 10px;
+  position: relative;
+}
+.bestitem li img{
+  width: 100%;
+  border-radius: 5px;
+}
+.bestitem .keyword{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 6px 8px;
+  background-color: rgb(189, 118, 255);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.bestitem h3{
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* 글자 줄 */
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+.bestitem  .price{
+  font-size: 14px;
+  color: rgb(181, 181, 181);
+  text-decoration: line-through;
+}
+.saleprice{
+  font-weight: bold;
+}
+.saleprice span{
+  color: rgb(250, 98, 47);
+}
+.btn{
+  width: 100%;
+  height: 35px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.btn span{
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.top_banner{
+  position: relative;
+  width: 100%;
+  background:rgb(95, 0, 128);
+}
+.top_banner_inner{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color:#fff;
+  font-size: 14px;
+  line-height: 40px;
+}
+.top_banner_inner span{
+  font-weight: bold;
+}
+.top_menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.top_menu a{
+  display: block;
+  font-size: 14px;
+  padding: 0px 10px;
+  margin-top: 5px;
+}
+.top_menu  a:first-child{
+  color:rgb(95, 0, 128);
+}
+.top_menu a:nth-child(2){
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+header h1{
+  text-align: left;
+}
+.left_menu{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.left_menu a{
+  text-decoration: none;
+  color:#ccc;
+  padding: 0px 10px;
+  font-weight: 500;
+
+}
+.left_menu a:first-child{
+  border-right: 1px solid #ccc;
+}
+.logo_box{
+  display: flex;
+  align-items: center;
+}
+/* 검색박스 */
+.searchbox{
+  text-align: center;
+  position: relative;
+}
+.search{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 400px;
+  height: 48px;
+  margin: 0 auto;
+  border: 1px solid rgb(95, 0, 128);
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(247, 247, 247) 0px 0px 0px 1px inset;
+}
+.search input{
+  width: 300px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-indent: 10px;
+}
+.search button{
+  border: none;
+  background: none;
+  font-size: 25px;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.iconbox{
+  text-align: right;
+  position: relative;
+  font-size: 30px;
+}
+.iconbox a{
+  margin: 0px 15px;
+}
+.top_box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+.top_box >div{
+  flex: 1;
+}
+.gnb ul{
+  display: flex;
+  justify-content: space-between;
+}
+.gnb ul li{flex: 1;}
+.gnb ul li a{
+  display: block;
+  line-height: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.gnb ul li:first-child a{
+  text-align: left;
+}
+.gnb ul li:last-child a{
+  text-align: right;
+}
+
+
+/* 배너 */
+.Banner{
+  width: 1200px;
+  margin: 0 auto;
+}
+.Banner img{
+  width: 100%;
+  
+}
